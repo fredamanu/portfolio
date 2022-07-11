@@ -257,7 +257,7 @@ a:focus {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-color: #636262;
+  background-color: #5e5c5c;
   background-blend-mode: overlay;
 }
 
@@ -268,7 +268,7 @@ a:focus {
 .hero .hero-image {
   position: relative;
   text-align: right;
-  padding-right: 75px;
+  margin-bottom: 8rem;
 }
 
 .hero .hero-image .img {
@@ -278,7 +278,7 @@ a:focus {
 
 .hero .hero-content {
   position: relative;
-  padding-left: 75px;
+  padding-left: 100px;
   display: flex;
   align-items: flex-start;
   justify-content: center;
@@ -339,7 +339,7 @@ a:focus {
   margin-right: 10px;
 }
 #bottom-cloud {
-  animation: moveLeft 40s ease-in-out infinite;
+  animation: moveLeft 60s ease-in-out infinite;
 }
 
 @keyframes moveLeft {
@@ -347,7 +347,7 @@ a:focus {
     transform: translate(0px, -40px);
   }
   50% {
-    transform: translate(220px, -40px);
+    transform: translate(420px, -40px);
   }
   100% {
     transform: translate(0px, -40px);
@@ -355,7 +355,7 @@ a:focus {
 }
 
 #top-cloud {
-  animation: moveRight 40s ease-in-out infinite;
+  animation: moveRight 60s ease-in-out infinite;
 }
 
 @keyframes moveRight {
@@ -363,7 +363,7 @@ a:focus {
     transform: translate(120px, 0px);
   }
   50% {
-    transform: translate(-100px, 0px);
+    transform: translate(-300px, 0px);
   }
 
   100% {
